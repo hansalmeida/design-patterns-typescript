@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
-  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/node": "^16.11.9",
     "ts-node-dev": "^1.1.8",
