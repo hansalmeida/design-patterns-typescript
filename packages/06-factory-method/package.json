@@ -1,0 +1,9 @@
+{
+  "name": "6-factory-method",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --clear --ignore-watch ../../node_modules --transpile-only index.ts"
+  }
+}
